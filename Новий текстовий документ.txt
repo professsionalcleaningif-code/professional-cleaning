@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Professional Cleaning</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#1f4037,#99f2c8);
+color:white;
+text-align:center;
+}
+
+.container{
+padding:60px 20px;
+}
+
+h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.subtitle{
+opacity:0.9;
+margin-bottom:40px;
+}
+
+.button{
+display:block;
+width:260px;
+margin:15px auto;
+padding:18px;
+background:white;
+color:black;
+text-decoration:none;
+font-size:20px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.button:hover{
+transform:scale(1.05);
+}
+
+.prices{
+margin-top:60px;
+}
+
+.price-card{
+background:white;
+color:black;
+width:280px;
+margin:20px auto;
+padding:20px;
+border-radius:15px;
+}
+
+.price-card h3{
+margin-top:0;
+}
+
+.footer{
+margin-top:60px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Professional Cleaning</h1>
+<p class="subtitle">Професійне прибирання квартир, будинків та офісів</p>
+
+<a class="button" href="tel:+380000000000">📞 Подзвонити</a>
+<a class="button" href="#">💬 Написати в Telegram</a>
+<a class="button" href="#">📷 Наш Instagram</a>
+
+<div class="prices">
+
+<h2>Наші ціни</h2>
+
+<div class="price-card">
+<h3>Прибирання квартири</h3>
+<p>від 800 грн</p>
+</div>
+
+<div class="price-card">
+<h3>Генеральне прибирання</h3>
+<p>від 1500 грн</p>
+</div>
+
+<div class="price-card">
+<h3>Прибирання офісу</h3>
+<p>від 1200 грн</p>
+</div>
+
+</div>
+
+<div class="footer">
+Professional Cleaning © 2026
+</div>
+
+</div>
+
+</body>
+</html>
